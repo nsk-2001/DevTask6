@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:peachpuff;
+  color: #333;
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+.shop{
+  width: 950px;
+  height: 510px;
+  margin-left: 16%;
+  margin-top: 5%;
+  
+
+}
+
+.logo {
+  width: 110px;
+}
+
+.icons {
+  z-index: 3;
+}
+
+.icons img{
+  width: 4rem;
+}
+
+
+.head {
+  font-size: 200%;
+  padding:0 1rem;
+  background-color: #008b8b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  height: 100px;
+  width: 100%;
+}
+
+.head div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+  margin-top: 10%;
+  display: flex;
+}
+
+nav {
+  background-color: #000;
+  padding: .5em;
+  position: sticky;
+  top: 0%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0%;
+  background-color: #008b8b;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  size: 20px;
+}
+
+.feature {
+  width: 200px;
+}
+
+li {
+  display: inline;
+  /*For diplaying Horizontally*/
+}
+
+nav ul li {
+  padding: 112px;
+}
+
+article img {
+  float: left;
+  padding: 15px;
+}
+
+.grid2 {
+  flex: 70%;
+  max-width: 50%;
+  padding: 5px;
+  margin-left: 60px;
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  filter: invert(100%);
+  width: 610px;
+  height: 480px;
+  margin-left: 35%;
+
+}
+
+
+
+
+
+div.elem-group {
+  margin: 20px 0;
+  width: 30%;
+  margin-left: 35%;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input,
+select,
+textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid black;
+}

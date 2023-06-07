@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHOP</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="head" id="home">
+    <div>
+      <img class="logo" src="Dlogo.jpg">
+      <b>Devu Electricals</b><br>
+      <i>ˢⁱⁿᶜᵉ ²⁰⁰⁶</i>
+    </div>
+    <a class="icons"  href="tel:9947333412"><img src="telephone.jpg" alt="contact us"></a>
+  </div>
+
+
+  <nav>
+    <ul>
+      <li>
+        <a href="#home" style="cursor: pointer;">Home</a>
+      </li>
+      <li>
+        <a href="#about" style="cursor: pointer;">About us</a>
+      </li>
+      <li>
+        <a href="#location" style="cursor: pointer;">Location</a>
+      </li>
+      <li>
+        <a href="#order" style="cursor: pointer;">Order</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <img src="shop2.jpg" class="shop">
+    <main class="grid">
+      <article class="article">
+        <h1 id="about"><u>
+            𝐀𝐁𝐎𝐔𝐓 𝐔𝐒</u><br><br>
+        </h1>
+        <p><b>Devu Electricals</b> is electrical shop located in Bhagavathipadi,kayamkulam has become
+          a prominent destination for all electrical,plumbing,Hardware and Household items needs in the area. With
+          a wide range of high-quality equipment and products, this shop caters to individuals
+          and businesses alike, offering a comprehensive selection of items necessary for electrical and plumbing works.
+          From cables, wires, and switches to pipes, fittings, and fixtures,
+          customers can find everything they require under one roof.</p>
+
+        <p> The shop's commitment to customer satisfaction is evident in its knowledgeable and friendly staff who
+          provide
+          expert advice and guidance, ensuring that customers make informed choices.
+          Whether it's a small home project or a large-scale commercial endeavor,
+          this electrical shop is a trusted source for all things electrical and plumbing, serving the community with
+          excellence for over a decade.</p>
+
+      </article>
+
+      <aside>
+        <h2><u>
+            𝐏𝐇𝐎𝐓𝐎𝐆𝐑𝐀𝐏𝐇𝐒</u><br><br>
+        </h2>
+        <div class="grid2">
+          <ul class="photos">
+            <div style="display: flex; gap: 6px;margin-bottom: 1px; width: 370px; height: 140px; ">
+              <li>
+                <a href="https://theconstructor.org/building/types-of-pipe-fittings-in-plumbing/12541/"><img
+                    src="image1.jpg" alt="placeholder"></a>
+              </li>
+
+              <li>
+                <img src="image3.jpg" alt="placeholder">
+              </li>
+            </div>
+
+            <div style="display: flex; gap: 3px;margin-bottom: 2px; width: 370px; height: 170px;">
+              <li>
+                <img src="image2.jpg" alt="placeholder">
+              </li>
+
+              <li>
+                <img src="image4.jpg" alt="placeholder">
+              </li>
+            </div>
+
+            <div style="display: flex; gap: 5px;margin-bottom: 1px; width: 370px;">
+              <li>
+                <img src="image5.jpg" alt="placeholder">
+              </li>
+              <li>
+                <img src="image6.jpg" alt="placeholder">
+              </li>
+
+            </div>
+
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+
+    <br><br><br><br><br><br><br>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+      <div class="continer" id="location">
+        <h1 style="margin-left: 15%;"><u>𝐋𝐎𝐂𝐀𝐓𝐈𝐎𝐍</u></h1><br><br>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.14854860260053!2d76.51610218753285!3d9.210554779680617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b061e9a9b7a9b69%3A0xa9567f12a5827f98!2sYuvajwala!5e0!3m2!1sen!2sin!4v1685803295362!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div>
+      <h1 style="margin-left: 15%;" id="order"><u>𝐏𝐋𝐀𝐂𝐄 𝐘𝐎𝐔𝐑 𝐎𝐑𝐃𝐄𝐑</u></h1><br><br>
+      <form action="reservation.php" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Your name" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="Your E-mail" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="Your contact number"
+            pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="room-selection">Select type of items needed</label>
+          <select id="room-selection" name="room_preference" required>
+            <option value=""></option>
+            <option value="connecting">Electrical items</option>
+            <option value="adjoining">Plumbing items</option>
+            <option value="adjacent">Household items</option>
+            <option value="adjacent">Hardware items</option>
+            <option value="adjacent">Farming items</option>
+            <option value="adjacent">Other items</option>
+          </select>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="message"></label>
+          <textarea id="message" name="visitor_message" placeholder="List the Items needed" required></textarea>
+
+        </div>
+        <button type="submit" style="margin-left: 45%;" >Order Now</button>
+      </form><br><br><br><br>
+
+
+    </div>
+
+  </div>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      var navone = document.querySelector(".head");
+      navone.classList.toggle("hidden", window.scrollY > 0);
+    })
+  </script>
+</body>
+
+</html>
